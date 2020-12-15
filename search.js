@@ -48,7 +48,7 @@ a,b,body,div,html,label,li,span,u,ul{margin:0;padding:0;border:0;font:inherit;ve
 
 ul.SnxPi li{display:inline-block;}
 </style>";
-        document.getElementById("demoss").innerHTML = '<ul class="SnxPi">' + x + '</ul>' + y;
+        document.getElementById("demoss").innerHTML = y + '<ul class="SnxPi">' + x + '</ul>';
 
     }
 };
