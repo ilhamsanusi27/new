@@ -68,7 +68,7 @@ xmlhttp.onreadystatechange = function() {
             }
 
         }
-        document.getElementById("demosss").innerHTML = x;
+        document.getElementById("demo").innerHTML = x;
 
     }
 };
