@@ -12,7 +12,7 @@ function getQueryVariable(variable)
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
-    var myObj, x, , y, z, id, a, type, view, title, src, alt, caption, id, time, datetime, datetime2, times, author, pic, thumbnail, height, width, padding, viewer, stylepadder, wh, foot = "";
+    var myObj, x, y, z, id, a, type, view, title, src, alt, caption, id, time, datetime, datetime2, times, author, pic, thumbnail, height, width, padding, viewer, stylepadder, wh, foot = "";
 
     myObj = JSON.parse(this.responseText);
 
