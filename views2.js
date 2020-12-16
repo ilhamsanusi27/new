@@ -12,7 +12,7 @@ function getQueryVariable(variable)
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
-    var myObj, x, id, a, type, view, title, src, alt, caption, id, time, datetime, datetime2, times, author, pic, thumbnail, height, width, padding, viewer, stylepadder, wh, foot = "";
+    var myObj, x, , y, z, id, a, type, view, title, src, alt, caption, id, time, datetime, datetime2, times, author, pic, thumbnail, height, width, padding, viewer, stylepadder, wh, foot = "";
 
     myObj = JSON.parse(this.responseText);
 
@@ -65,7 +65,7 @@ x = '<article class="_8Rm4L M9sTE  L_LMM SgTZ1   ePUX4"><header class="Ppjfr UE9
 x='<article class="_8Rm4L M9sTE  L_LMM SgTZ1   ePUX4"><header class="Ppjfr UE9AK  wdOqh"><div class="RR-M-  mrq0Z" role="button" tabindex="0"><canvas class="CfWVH" height="63" width="63" style="position: absolute; top: -5px; left: -5px; width: 42px; height: 42px;"></canvas><a rel="nofollow" class="_2dbep qNELH kIKUG" href="https://www.instagram.com/'+author+'/" style="width: 32px; height: 32px;"><img alt="Foto profil '+author+'" class="_6q-tv" src="'+pic+'"></a></div><div class="o-MQd  z8cbW"><div class=" RqtMr"><div class="e1e1d"><h2 class="BrX75"><a rel="nofollow" class="FPmhX notranslate nJAzx" title="'+author+'" href="https://www.instagram.com/'+author+'/">'+author+'</a></h2></div></div><div class="M30cS"><div></div><div class="JF9hh"></div></div></div></header><div class="_97aPb "><div role="button" tabindex="0" class="ZyFrc"><div class="eLAPa kPFhm"><div class="KL4Bh"'+stylepadder+'><img alt="'+alt+'" class="FFVAD" decoding="auto" src="'+src+'" style="object-fit: cover;"'+wh+'></div></div></div></div>'+foot+'</article>';
 }
 
-var z = '<article class="_8Rm4L M9sTE  L_LMM SgTZ1   ePUX4"><center><div class="fb-page" data-href="https://www.facebook.com/dageeelan/" data-tabs="" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/dageeelan/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/dageeelan/">Dagelan Online</a></blockquote></div></center></article><style>.show-share1{background:0 0;border:none;margin:0;padding:20px;text-align:center}.show-share1 .show-more1{color:#fff;font-size:24px;width:50px;height:50px;line-height:50px;padding:0;margin:0;text-align:center;border-radius:100%;background:#fff;border:none;box-shadow:0 6px 12px rgba(0,0,0,.2);position:fixed;bottom:90px;right:30px;z-index:10000;text-align:center}.show-more1 svg{padding:25%}</style>';
+z = '<article class="_8Rm4L M9sTE  L_LMM SgTZ1   ePUX4"><center><div class="fb-page" data-href="https://www.facebook.com/dageeelan/" data-tabs="" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/dageeelan/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/dageeelan/">Dagelan Online</a></blockquote></div></center></article><style>.show-share1{background:0 0;border:none;margin:0;padding:20px;text-align:center}.show-share1 .show-more1{color:#fff;font-size:24px;width:50px;height:50px;line-height:50px;padding:0;margin:0;text-align:center;border-radius:100%;background:#fff;border:none;box-shadow:0 6px 12px rgba(0,0,0,.2);position:fixed;bottom:90px;right:30px;z-index:10000;text-align:center}.show-more1 svg{padding:25%}</style>';
 
 document.getElementById("demos").innerHTML = x + y + z;
   }
