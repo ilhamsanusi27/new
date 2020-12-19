@@ -17,7 +17,9 @@ if (v != "") { var vv = loadScript("https://cdn.statically.io/gh/ilhamsanusi27/n
 if (q != "") {
 var qq = loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/search11.js"); setTimeout(qq, 1000);
 } else { var ii = loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/index5.js"); setTimeout(ii, 2000); }
-
+function downloadJSAtOnload() {
+loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/analytics.js");
+}
 if (window.addEventListener) {
 window.addEventListener("load", downloadJSAtOnload, false); }
 else if (window.attachEvent) {
