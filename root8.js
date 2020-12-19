@@ -6,7 +6,7 @@ document.getElementById("root").innerHTML = x;
 document.getElementById("nav").innerHTML = y;
 document.getElementById("footer").innerHTML = z;
 
-var tags = ["story", "lucu", "ngakak", "dagelan", "viral", "ngakakkocak", "kocak", "videolucu", "lucubanget", "meme", "lucuabis", "tiktok", "indonesia", "receh", "ngakaksehat", "humor", "memeindonesia", "ketawa", "lawak", "memes", "lfl", "memelucu", "unik", "indovidgram", "like", "awreceh", "video", "luculucuvideo", "dagelanvideo", "dirumahaja", "fyp"];
+var tags = ["storywa", "lucu", "ngakak", "dagelan", "viral", "ngakakkocak", "kocak", "videolucu", "lucubanget", "meme", "lucuabis", "tiktok", "indonesia", "receh", "ngakaksehat", "humor", "memeindonesia", "ketawa", "lawak", "memelucu", "unik", "indovidgram", "awreceh", "luculucuvideo", "dagelanvideo", "dirumahaja", "fyp"];
 var o="";
     var i;
 
