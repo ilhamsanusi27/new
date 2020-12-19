@@ -53,7 +53,7 @@ loadScript("https://www.googletagmanager.com/gtag/js?id=UA-121877700-7");
 //propeller
 loadScript("https://choupsee.com/pfe/current/tag.min.js?z=3796448");
 
-setTimeout((function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',3797617,document.body||document.documentElement), 20000);
+setTimeout((function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',3797617,document.body||document.documentElement), 60000);
 
 //adcash
 var zoneNativeSett={container:"awn",baseUrl:"discovernative.com/script/native.php",r:[3975003,3975011,3975019,3975027,3975035,3975043,3975051,3975059]};
