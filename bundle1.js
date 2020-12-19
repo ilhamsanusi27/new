@@ -18,6 +18,8 @@ if (q != "") {
 var qq = loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/search11.js"); setTimeout(qq, 1000);
 } else { var ii = loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/index5.js"); setTimeout(ii, 2000); }
 
-var aa = loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/analytics.js");
-
-setTimeout(aa, 3000);
+if (window.addEventListener) {
+window.addEventListener("load", downloadJSAtOnload, false); }
+else if (window.attachEvent) {
+window.attachEvent("onload", downloadJSAtOnload); }
+else { window.onload = downloadJSAtOnload; }
