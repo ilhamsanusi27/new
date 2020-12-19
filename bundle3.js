@@ -8,20 +8,14 @@ function getQueryVariable(variable)
        }
        return(false);
 }
-    loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/root7.js");
+    loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/root8.js");
 
 var v = getQueryVariable("v");
 var q = getQueryVariable("q");
 
-if (v != "") { var vv = loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/views2.js"); setTimeout(vv, 1000); }
+if (v != "") { var vv = loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/views3.js"); setTimeout(vv, 1000); }
 if (q != "") {
 var qq = loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/search11.js"); setTimeout(qq, 1000);
 } else { var ii = loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/index5.js"); setTimeout(ii, 2000); }
-function downloadJSAtOnload() {
-loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/analytics.js");
-}
-if (window.addEventListener) {
-window.addEventListener("load", downloadJSAtOnload, false); }
-else if (window.attachEvent) {
-window.attachEvent("onload", downloadJSAtOnload); }
-else { window.onload = downloadJSAtOnload; }
+
+var lazyadsense=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazyadsense||0!=document.body.scrollTop&&!1===lazyadsense)&&(!function(){loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/analytics1.js");}(),lazyadsense=!0)},!0);
