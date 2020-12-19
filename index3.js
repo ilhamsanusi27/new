@@ -7,7 +7,11 @@ xmlhttp.onreadystatechange = function() {
         x = '';
         c = getQueryVariable("token");
         f = getQueryVariable("l");
-
+        
+if (f != "") {
+ var h = f;
+} else { var h = "lucu"; }
+        
         if (c != "") {
             a = myObj.data.hashtag.edge_hashtag_to_media;
         } else {
@@ -17,7 +21,7 @@ xmlhttp.onreadystatechange = function() {
         b = a.edges;
         next = a.page_info.end_cursor;
 
-        document.getElementById("next").innerHTML = "<form action='/' method='GET' target='_top'><input type='hidden' name='l' value='" + f + "'/><input type='hidden' name='token' value='" + next + "'/><input id='btn-instafeed-load' class='btn' type='submit' value='Load More'/></form>";
+        document.getElementById("next").innerHTML = "<form action='/' method='GET' target='_top'><input type='hidden' name='l' value='" + h + "'/><input type='hidden' name='token' value='" + next + "'/><input id='btn-instafeed-load' class='btn' type='submit' value='Load More'/></form>";
 
         for (i = 0; i < b.length; i++) {
 
