@@ -13,7 +13,7 @@ function getQueryVariable(variable)
 var v = getQueryVariable("v");
 var q = getQueryVariable("q");
 
-if (v != "") { setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/views6.js"), 1000); }
+if (v != "") { setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/views7.js"), 1000); }
 if (q != "") {
 setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/search11.js"), 1000);
 } else { setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/index5.js"), 2000); }
