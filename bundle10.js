@@ -18,4 +18,4 @@ if (q != "") {
 setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/search11.js"), 1000);
 } else { setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/index5.js"), 2000); }
 
-var lazy=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazy||0!=document.body.scrollTop&&!1===lazy)&&(!function(){loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/analytics4.js");}(),lazy=!0)},!0);
+var lazy=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazy||0!=document.body.scrollTop&&!1===lazy)&&(!function(){loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/analytics4.js"); loadScript("//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58a25e0fe19119b4","","","","type");}(),lazy=!0)},!0);
