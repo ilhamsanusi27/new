@@ -16,7 +16,7 @@
       appId      : '2512602489066986',
       cookie     : true,
       xfbml      : true,
-      version    : 'v6.0'
+      version    : 'v9.0'
     });
       
     FB.AppEvents.logPageView();   
@@ -29,11 +29,14 @@
 }
 
   (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
+     var js, js2, fjs = d.getElementsByTagName(s)[0];
      if (d.getElementById(id)) {return;}
      js = d.createElement(s); js.id = id;
      js.src = "https://connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
+        js2 = d.createElement(s); js2.id = id;
+        js2.src = 'https://connect.facebook.net/id_ID/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js2, fjs);
    }(document, 'script', 'facebook-jssdk'));
   
  //Google Tag Manager
