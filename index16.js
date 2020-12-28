@@ -48,7 +48,7 @@ x0 = '<div '+stylepadder+'><img alt="'+alt+'" class="FFVAD" decoding="auto" src=
 if(caption.match(/order|WhatsApp|togel|Naturaworld|BPOM|pemesanan|62-8|62 8|628|08|bisnis*|profit*|ness*|ness v|ready stock|ready stok|togel|offcexalted|Bibit indonesia|doctorcostume|casing HP|Limited Edition|springbabykids|ikatrambut|qq|shopee|Min Lose|SLOT GAME|Segera bergabung|ayo bermain/gi)){} else {
 x = '<article class="_8Rm4L"><header class="Ppjfr"><canvas class="CfWVH" height="63" width="63" style="position: absolute; top: -5px; left: -5px; width: 42px; height: 42px;"></canvas><a rel="nofollow" class="_2dbep" href="https://www.instagram.com/'+author+'/" style="width: 32px; height: 32px;"><img alt="Foto profil '+author+'" class="_6q-tv" src="'+pic+'"></a><div class="o-MQd z8cbW"><h2><a rel="nofollow" class="nJAzx" title="'+author+'" href="https://www.instagram.com/'+author+'/">'+author+'</a></h2></div></header>'+x0+' '+foot+'</article>';}
 
-document.write(x);
+document.getElementById("demo").innerHTML = x;
   }
 };
 
