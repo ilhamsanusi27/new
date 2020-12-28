@@ -16,7 +16,7 @@ var p1 = getQueryVariable("p1");
 var p2 = getQueryVariable("p2");
 var at = getQueryVariable("at");
 
-if (v != "") { setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/views8.js"), 1000); }
+if (v != "") { setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/views9.js"), 1000); }
 if (q != "") {
 setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/search11.js"), 1000);
 } else { setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/index6.js"), 2000); }
