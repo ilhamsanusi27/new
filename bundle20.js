@@ -19,7 +19,7 @@ var at = getQueryVariable("at");
 if (v != "") { setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/views10.js"), 1000); }
 if (q != "") {
 setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/search11.js"), 1000);
-} else { setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/index10.js"), 2000); }
+} else { setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/index11.js"), 2000); }
 
 var lazy=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazy||0!=document.body.scrollTop&&!1===lazy)&&(!function(){
 
