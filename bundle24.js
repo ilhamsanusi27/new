@@ -91,3 +91,22 @@ loadScript("//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58a25e0fe19119b4"
       }
 
 }(),lazy=!0)},!0);
+
+function shareOverrideOGMeta(overrideLink, overrideTitle, overrideDescription, overrideImage)
+{
+	FB.ui({
+		method: 'share_open_graph',
+		action_type: 'og.likes',
+		action_properties: JSON.stringify({
+			object: {
+				'og:url': overrideLink,
+				'og:title': overrideTitle,
+				'og:description': overrideDescription,
+				'og:image': overrideImage
+			}
+		})
+	},
+	function (response) {
+	// Action after response
+	});
+}
