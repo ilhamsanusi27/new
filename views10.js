@@ -1,7 +1,7 @@
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
-    var myObj, x, x0, y, z, id, a, type, view, title, src, alt, caption, id, time, datetime, datetime2, times, author, pic, thumbnail, height, width, padding, viewer, stylepadder, wh, foot = "";
+    var myObj, x, x0, z, id, a, type, view, title, src, alt, caption, id, time, datetime, datetime2, times, author, pic, thumbnail, height, width, padding, viewer, stylepadder, wh, foot = "";
 
     myObj = JSON.parse(this.responseText);
 
@@ -42,7 +42,7 @@ stylepadder = ' style="padding-bottom: ' + padding + '%"'; wh=' width="' + width
 stylepadder=''; wh=' width="100%" height="auto"'; }
 }
 
-foot = '<div class="eo2As"><section class="ltpMr Slqrh"><button class="dCJp8 afkep">Share</button><span class="wmtNn"><a href="'+src+'" rel="noindex" download><button class="dCJp8 afkep"><svg height="24px" width="24px" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><path d="M382.56,233.376C379.968,227.648,374.272,224,368,224h-64V16c0-8.832-7.168-16-16-16h-64c-8.832,0-16,7.168-16,16v208h-64c-6.272,0-11.968,3.68-14.56,9.376c-2.624,5.728-1.6,12.416,2.528,17.152l112,128c3.04,3.488,7.424,5.472,12.032,5.472c4.608,0,8.992-2.016,12.032-5.472l112-128C384.192,245.824,385.152,239.104,382.56,233.376z"></path></g></g><g><g><path d="M432,352v96H80v-96H16v128c0,17.696,14.336,32,32,32h416c17.696,0,32-14.304,32-32V352H432z"></path></g></g></svg></button></a></span></section><section class="ygqzn">' + view + ' ' + viewer + '</section><div class="KlCQn EtaWk"><div class="P9YgZ"><div class="X7jCj">' + caption + '</div></div></div>';
+foot = '<div class="eo2As"><section class="ltpMr Slqrh"><button class="dCJp8 afkep"><div class='addthis_inline_share_toolbox'></div></button><span class="wmtNn"><a href="'+src+'" rel="noindex" download><button class="dCJp8 afkep"><svg height="24px" width="24px" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><path d="M382.56,233.376C379.968,227.648,374.272,224,368,224h-64V16c0-8.832-7.168-16-16-16h-64c-8.832,0-16,7.168-16,16v208h-64c-6.272,0-11.968,3.68-14.56,9.376c-2.624,5.728-1.6,12.416,2.528,17.152l112,128c3.04,3.488,7.424,5.472,12.032,5.472c4.608,0,8.992-2.016,12.032-5.472l112-128C384.192,245.824,385.152,239.104,382.56,233.376z"></path></g></g><g><g><path d="M432,352v96H80v-96H16v128c0,17.696,14.336,32,32,32h416c17.696,0,32-14.304,32-32V352H432z"></path></g></g></svg></button></a></span></section><section class="ygqzn">' + view + ' ' + viewer + '</section><div class="KlCQn EtaWk"><div class="P9YgZ"><div class="X7jCj">' + caption + '</div></div></div>';
 
 if(type=='video'){
 x0 = '<div ' + stylepadder + '"><div class="oJub8"><div class="wymO0"><video class="tWeCl" poster="' + thumbnail + '" playsinline controls preload="none" src="' + src + '" type="video/mp4"'+wh+' loop></video></div></div></div>';
@@ -54,7 +54,7 @@ x = '<article class="_8Rm4L"><header class="Ppjfr"><canvas class="CfWVH" height=
 
 z = '<article class="_8Rm4L"><center><div class="fb-page" data-href="https://www.facebook.com/dageeelan/" data-tabs="" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/dageeelan/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/dageeelan/">Dagelan Online</a></blockquote></div></center></article>';
 
-document.getElementById("demos").innerHTML = x + y + z;
+document.getElementById("demos").innerHTML = x + z;
   }
 };
 
