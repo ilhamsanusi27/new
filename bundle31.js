@@ -11,32 +11,13 @@ function getQueryVariable(variable)
 
 loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/root13.js");
 
-function shareOverrideOGMeta(overrideLink, overrideTitle, overrideDescription, overrideImage)
-{
-	FB.ui({
-		method: 'share_open_graph',
-		action_type: 'og.likes',
-		action_properties: JSON.stringify({
-			object: {
-				'og:url': overrideLink,
-				'og:title': overrideTitle,
-				'og:description': overrideDescription,
-				'og:image': overrideImage
-			}
-		})
-	},
-	function (response) {
-	// Action after response
-	});
-}
-
 var v = getQueryVariable("v");
 var q = getQueryVariable("q");
 
 if (v != "") { setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/views12.js"), 1000); }
 if (q != "") {
 setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/search11.js"), 1000);
-} else { setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/index18.js"), 2000); }
+} else { setTimeout(loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/index19.js"), 2000); }
 
 var lazy=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazy||0!=document.body.scrollTop&&!1===lazy)&&(!function(){
 
