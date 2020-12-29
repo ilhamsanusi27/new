@@ -9,7 +9,7 @@ function getQueryVariable(variable)
        return(false);
 }
 
-loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/root16.js");
+loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/root17.js");
 
 var q = getQueryVariable("q");
 
