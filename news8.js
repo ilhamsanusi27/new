@@ -1,4 +1,4 @@
-loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/root15.js");
+loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/root18.js");
 
 loadScript("https://platform-api.sharethis.com/js/sharethis.js#property=5fe0e8333a4bba00125c6c97&product=sop","","","async","type");
 
