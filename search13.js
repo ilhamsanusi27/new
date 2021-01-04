@@ -24,7 +24,7 @@ var y = "<style>#search-box{position:relative;margin:0 20;border:1px solid #ccc;
     }
 };
 
-var d = getQueryVariable("q");
+var d = gQV("q");
 var url = "https://www.instagram.com/web/search/topsearch/?query=" + d;
 
 xmlhttp.open("GET", url, true);
