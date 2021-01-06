@@ -9,7 +9,7 @@ function gQV(variable)
        return(false);
 }
 
-loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/root1.js");
+loadScript("https://cdn.statically.io/gh/ilhamsanusi27/new/main/root2.js");
 
 var q = gQV("q");
 
